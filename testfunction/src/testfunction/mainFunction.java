@@ -34,6 +34,7 @@ public class mainFunction {
 		System.out.println("qw");
 		System.out.println("qw2");
 		System.out.println("qw3");
+		System.out.println("qw4");
 	person firstemployee = new person();
 	firstemployee.generateID();
 	}
