@@ -32,6 +32,7 @@ public class mainFunction {
 		System.out.println("d");
 		System.out.println("x");
 		System.out.println("qw");
+		System.out.println("qw2");
 	person firstemployee = new person();
 	firstemployee.generateID();
 	}
