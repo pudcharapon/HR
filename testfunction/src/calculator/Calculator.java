@@ -7,7 +7,7 @@ public class Calculator implements Adder,Subtrator{
 		// TODO Auto-generated method stub
 		int sum = 0;
 		for ( int operand : operands) {
-			sum-=operand;
+			sum-=operand; //This is where subtractor work
 		}
 		return sum;
 	}
