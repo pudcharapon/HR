@@ -7,7 +7,7 @@ public class Calculator implements Adder,Subtrator,divider{
 		// TODO Auto-generated method stub
 		int sum = 0;
 		for ( int operand : operands) {
-			sum-=operand; //This is where subtractor work
+			sum-=operand; // Added when try to edit master branch after edited feature branch
 		}
 		return sum;
 	}
