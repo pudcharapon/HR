@@ -1,6 +1,6 @@
 package calculator;
 
-public class Calculator implements Adder,Subtrator{
+public class Calculator implements Adder,Subtrator,divider{
 
 	@Override
 	public int subtract(int... operands) {
@@ -21,6 +21,15 @@ public class Calculator implements Adder,Subtrator{
 		}
 		return sum;
 	}
-	
+
+	@Override
+	public int divide(int... operands) {
+		// TODO Auto-generated method stub
+		int sum = 1;
+		for ( int operand : operands) {
+			sum /= operand;
+		}
+		return sum;
+	}	
 
 }
